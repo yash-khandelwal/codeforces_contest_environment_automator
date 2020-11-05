@@ -9,7 +9,7 @@ import playsound
 import os
 import time
 
-contest_link = "https://codeforces.com/contest/1266"
+contest_link = ""
 # GUI
 sg.theme('DarkAmber')  # Add a touch of color
 # All the stuff inside your window.
@@ -41,7 +41,7 @@ def speak(txt):
     playsound.playsound("voice.mp3")
 
 
-driver_path = "C:\Program Files (x86)\chromedriver.exe"
+driver_path = "<YOUR CHROME DRIVERS PATH>"
 
 driver = webdriver.Chrome(driver_path)
 
@@ -51,7 +51,7 @@ contest = contest[12:-13]
 print(contest)
 
 problem_list = []
-PATH = r'C:\Users\kritagya khandelwal\Documents\2020\codeforces'
+PATH = r'<FOLDER PATH IN WHICH YOU WANT TO SETUP ENVIRONMENT>'
 
 text = ""
 try:
